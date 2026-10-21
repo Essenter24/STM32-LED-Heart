@@ -1,0 +1,6845 @@
+(kicad_sch 
+  (version 20260306) 
+  (generator "eeschema") 
+  (generator_version "10.0") 
+  (uuid "3095b181-dec6-4ba7-b324-328491ddf4e6") 
+  (paper "A4") 
+  (lib_symbols 
+    (symbol "Connector:Conn_01x04_Socket" 
+      (pin_names 
+        (offset 1.016) 
+        (hide yes)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (in_pos_files yes) 
+      (duplicate_pin_numbers_are_jumpers no) 
+      (property "Reference" "J" 
+        (at 0 5.08 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Value" "Conn_01x04_Socket" 
+        (at 0 -7.62 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Footprint" "" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Datasheet" "" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Description" "Generic connector, single row, 01x04, script generated" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_locked" "" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_keywords" "connector" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_fp_filters" "Connector*:*_1x??_*" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (symbol "Conn_01x04_Socket_1_1" 
+        (polyline 
+          (pts 
+            (xy -1.27 2.54) 
+            (xy -0.508 2.54)) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy -1.27 0) 
+            (xy -0.508 0)) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy -1.27 -2.54) 
+            (xy -0.508 -2.54)) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy -1.27 -5.08) 
+            (xy -0.508 -5.08)) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (arc 
+          (start 0 2.032) 
+          (mid -0.5058 2.54) 
+          (end 0 3.048) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (arc 
+          (start 0 -0.508) 
+          (mid -0.5058 0) 
+          (end 0 0.508) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (arc 
+          (start 0 -3.048) 
+          (mid -0.5058 -2.54) 
+          (end 0 -2.032) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (arc 
+          (start 0 -5.588) 
+          (mid -0.5058 -5.08) 
+          (end 0 -4.572) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (pin passive line 
+          (at -5.08 2.54 0) 
+          (length 3.81) 
+          (name "Pin_1" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -5.08 0 0) 
+          (length 3.81) 
+          (name "Pin_2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "2" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -5.08 -2.54 0) 
+          (length 3.81) 
+          (name "Pin_3" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "3" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -5.08 -5.08 0) 
+          (length 3.81) 
+          (name "Pin_4" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "4" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no)) 
+    (symbol "Connector:TestPoint" 
+      (pin_numbers 
+        (hide yes)) 
+      (pin_names 
+        (offset 0.762) 
+        (hide yes)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (in_pos_files yes) 
+      (duplicate_pin_numbers_are_jumpers no) 
+      (property "Reference" "TP" 
+        (at 0 6.858 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Value" "TestPoint" 
+        (at 0 5.08 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Footprint" "" 
+        (at 5.08 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Datasheet" "" 
+        (at 5.08 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Description" "test point" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_keywords" "test point tp" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_fp_filters" "Pin* Test*" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (symbol "TestPoint_0_1" 
+        (circle 
+          (center 0 3.302) 
+          (radius 0.762) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none)))) 
+      (symbol "TestPoint_1_1" 
+        (pin passive line 
+          (at 0 0 90) 
+          (length 2.54) 
+          (name "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no)) 
+    (symbol "Device:C" 
+      (pin_numbers 
+        (hide yes)) 
+      (pin_names 
+        (offset 0.254)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (in_pos_files yes) 
+      (duplicate_pin_numbers_are_jumpers no) 
+      (property "Reference" "C" 
+        (at 0.635 2.54 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (justify left))) 
+      (property "Value" "C" 
+        (at 0.635 -2.54 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (justify left))) 
+      (property "Footprint" "" 
+        (at 0.9652 -3.81 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Datasheet" "" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Description" "Unpolarized capacitor" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_keywords" "cap capacitor" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_fp_filters" "C_*" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (symbol "C_0_1" 
+        (polyline 
+          (pts 
+            (xy -2.032 0.762) 
+            (xy 2.032 0.762)) 
+          (stroke 
+            (width 0.508) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy -2.032 -0.762) 
+            (xy 2.032 -0.762)) 
+          (stroke 
+            (width 0.508) 
+            (type default)) 
+          (fill 
+            (type none)))) 
+      (symbol "C_1_1" 
+        (pin passive line 
+          (at 0 3.81 270) 
+          (length 2.794) 
+          (name "" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 0 -3.81 90) 
+          (length 2.794) 
+          (name "" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no)) 
+    (symbol "Device:C_Polarized" 
+      (pin_numbers 
+        (hide yes)) 
+      (pin_names 
+        (offset 0.254)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (in_pos_files yes) 
+      (duplicate_pin_numbers_are_jumpers no) 
+      (property "Reference" "C" 
+        (at 0.635 2.54 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (justify left))) 
+      (property "Value" "C_Polarized" 
+        (at 0.635 -2.54 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (justify left))) 
+      (property "Footprint" "" 
+        (at 0.9652 -3.81 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Datasheet" "" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Description" "Polarized capacitor" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_keywords" "cap capacitor" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_fp_filters" "CP_*" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (symbol "C_Polarized_0_1" 
+        (rectangle 
+          (start -2.286 0.508) 
+          (end 2.286 1.016) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy -1.778 2.286) 
+            (xy -0.762 2.286)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy -1.27 2.794) 
+            (xy -1.27 1.778)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (rectangle 
+          (start 2.286 -0.508) 
+          (end -2.286 -1.016) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type outline)))) 
+      (symbol "C_Polarized_1_1" 
+        (pin passive line 
+          (at 0 3.81 270) 
+          (length 2.794) 
+          (name "" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 0 -3.81 90) 
+          (length 2.794) 
+          (name "" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no)) 
+    (symbol "Device:LED" 
+      (pin_numbers 
+        (hide yes)) 
+      (pin_names 
+        (offset 1.016) 
+        (hide yes)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (in_pos_files yes) 
+      (duplicate_pin_numbers_are_jumpers no) 
+      (property "Reference" "D" 
+        (at 0 2.54 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Value" "LED" 
+        (at 0 -2.54 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Footprint" "" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Datasheet" "" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Description" "Light emitting diode" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Sim.Pins" "1=K 2=A" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_keywords" "LED diode" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (symbol "LED_0_1" 
+        (polyline 
+          (pts 
+            (xy -3.048 -0.762) 
+            (xy -4.572 -2.286) 
+            (xy -3.81 -2.286) 
+            (xy -4.572 -2.286) 
+            (xy -4.572 -1.524)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy -1.778 -0.762) 
+            (xy -3.302 -2.286) 
+            (xy -2.54 -2.286) 
+            (xy -3.302 -2.286) 
+            (xy -3.302 -1.524)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy -1.27 0) 
+            (xy 1.27 0)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy -1.27 -1.27) 
+            (xy -1.27 1.27)) 
+          (stroke 
+            (width 0.254) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 1.27 -1.27) 
+            (xy 1.27 1.27) 
+            (xy -1.27 0) 
+            (xy 1.27 -1.27)) 
+          (stroke 
+            (width 0.254) 
+            (type default)) 
+          (fill 
+            (type none)))) 
+      (symbol "LED_1_1" 
+        (pin passive line 
+          (at -3.81 0 0) 
+          (length 2.54) 
+          (name "K" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 3.81 0 180) 
+          (length 2.54) 
+          (name "A" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no)) 
+    (symbol "Device:R_US" 
+      (pin_numbers 
+        (hide yes)) 
+      (pin_names 
+        (offset 0)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (in_pos_files yes) 
+      (duplicate_pin_numbers_are_jumpers no) 
+      (property "Reference" "R" 
+        (at 2.54 0 90) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Value" "R_US" 
+        (at -2.54 0 90) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Footprint" "" 
+        (at 1.016 -0.254 90) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Datasheet" "" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Description" "Resistor, US symbol" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_keywords" "R res resistor" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_fp_filters" "R_*" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (symbol "R_US_0_1" 
+        (polyline 
+          (pts 
+            (xy 0 2.286) 
+            (xy 0 2.54)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 0 2.286) 
+            (xy 1.016 1.905) 
+            (xy 0 1.524) 
+            (xy -1.016 1.143) 
+            (xy 0 0.762)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 0 0.762) 
+            (xy 1.016 0.381) 
+            (xy 0 0) 
+            (xy -1.016 -0.381) 
+            (xy 0 -0.762)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 0 -0.762) 
+            (xy 1.016 -1.143) 
+            (xy 0 -1.524) 
+            (xy -1.016 -1.905) 
+            (xy 0 -2.286)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 0 -2.286) 
+            (xy 0 -2.54)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none)))) 
+      (symbol "R_US_1_1" 
+        (pin passive line 
+          (at 0 3.81 270) 
+          (length 1.27) 
+          (name "" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 0 -3.81 90) 
+          (length 1.27) 
+          (name "" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no)) 
+    (symbol "MCU_ST_STM32G0:STM32G030K8Tx" 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (in_pos_files yes) 
+      (duplicate_pin_numbers_are_jumpers no) 
+      (property "Reference" "U" 
+        (at -15.24 26.67 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (justify left))) 
+      (property "Value" "STM32G030K8Tx" 
+        (at 2.54 26.67 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (justify left))) 
+      (property "Footprint" "Package_QFP:LQFP-32_7x7mm_P0.8mm" 
+        (at -15.24 -22.86 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (justify right))) 
+      (property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g030k8.pdf" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 64KB flash, 8KB RAM, 64 MHz, 2.0-3.6V, 29 GPIO, LQFP32" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_keywords" "Arm Cortex-M0+ STM32G0 STM32G0x0 Value line" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_fp_filters" "LQFP*7x7mm*P0.8mm*" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (symbol "STM32G030K8Tx_0_1" 
+        (rectangle 
+          (start -15.24 -22.86) 
+          (end 15.24 25.4) 
+          (stroke 
+            (width 0.254) 
+            (type default)) 
+          (fill 
+            (type background)))) 
+      (symbol "STM32G030K8Tx_1_1" 
+        (pin bidirectional line 
+          (at -17.78 -17.78 0) 
+          (length 2.54) 
+          (name "PB9" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (alternate "I2C1_SDA" bidirectional line) 
+          (alternate "IR_OUT" bidirectional line) 
+          (alternate "SPI2_NSS" bidirectional line) 
+          (alternate "TIM17_CH1" bidirectional line)) 
+        (pin bidirectional line 
+          (at -17.78 12.7 0) 
+          (length 2.54) 
+          (name "PC14" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (alternate "RCC_OSC32_IN" bidirectional line) 
+          (alternate "RCC_OSC_IN" bidirectional line) 
+          (alternate "TIM1_BK2" bidirectional line)) 
+        (pin bidirectional line 
+          (at -17.78 10.16 0) 
+          (length 2.54) 
+          (name "PC15" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "3" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (alternate "RCC_OSC32_EN" bidirectional line) 
+          (alternate "RCC_OSC32_OUT" bidirectional line) 
+          (alternate "RCC_OSC_EN" bidirectional line)) 
+        (pin power_in line 
+          (at 0 27.94 270) 
+          (length 2.54) 
+          (name "VDD" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "4" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin power_in line 
+          (at 0 -25.4 90) 
+          (length 2.54) 
+          (name "VSS" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "5" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin input line 
+          (at -17.78 20.32 0) 
+          (length 2.54) 
+          (name "NRST" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "6" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin bidirectional line 
+          (at 17.78 20.32 180) 
+          (length 2.54) 
+          (name "PA0" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "7" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (alternate "ADC1_IN0" bidirectional line) 
+          (alternate "RTC_TAMP_IN2" bidirectional line) 
+          (alternate "SPI2_SCK" bidirectional line) 
+          (alternate "SYS_WKUP1" bidirectional line) 
+          (alternate "USART2_CTS" bidirectional line) 
+          (alternate "USART2_NSS" bidirectional line)) 
+        (pin bidirectional line 
+          (at 17.78 17.78 180) 
+          (length 2.54) 
+          (name "PA1" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "8" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (alternate "ADC1_IN1" bidirectional line) 
+          (alternate "I2C1_SMBA" bidirectional line) 
+          (alternate "I2S1_CK" bidirectional line) 
+          (alternate "SPI1_SCK" bidirectional line) 
+          (alternate "USART2_CK" bidirectional line) 
+          (alternate "USART2_DE" bidirectional line) 
+          (alternate "USART2_RTS" bidirectional line)) 
+        (pin bidirectional line 
+          (at 17.78 15.24 180) 
+          (length 2.54) 
+          (name "PA2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "9" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (alternate "ADC1_IN2" bidirectional line) 
+          (alternate "I2S1_SD" bidirectional line) 
+          (alternate "RCC_LSCO" bidirectional line) 
+          (alternate "SPI1_MOSI" bidirectional line) 
+          (alternate "SYS_WKUP4" bidirectional line) 
+          (alternate "USART2_TX" bidirectional line)) 
+        (pin bidirectional line 
+          (at 17.78 12.7 180) 
+          (length 2.54) 
+          (name "PA3" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "10" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (alternate "ADC1_IN3" bidirectional line) 
+          (alternate "SPI2_MISO" bidirectional line) 
+          (alternate "USART2_RX" bidirectional line)) 
+        (pin bidirectional line 
+          (at 17.78 10.16 180) 
+          (length 2.54) 
+          (name "PA4" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "11" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (alternate "ADC1_IN4" bidirectional line) 
+          (alternate "I2S1_WS" bidirectional line) 
+          (alternate "RTC_OUT_ALARM" bidirectional line) 
+          (alternate "RTC_OUT_CALIB" bidirectional line) 
+          (alternate "RTC_TAMP_IN1" bidirectional line) 
+          (alternate "RTC_TS" bidirectional line) 
+          (alternate "SPI1_NSS" bidirectional line) 
+          (alternate "SPI2_MOSI" bidirectional line) 
+          (alternate "SYS_WKUP2" bidirectional line) 
+          (alternate "TIM14_CH1" bidirectional line)) 
+        (pin bidirectional line 
+          (at 17.78 7.62 180) 
+          (length 2.54) 
+          (name "PA5" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "12" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (alternate "ADC1_IN5" bidirectional line) 
+          (alternate "I2S1_CK" bidirectional line) 
+          (alternate "SPI1_SCK" bidirectional line)) 
+        (pin bidirectional line 
+          (at 17.78 5.08 180) 
+          (length 2.54) 
+          (name "PA6" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "13" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (alternate "ADC1_IN6" bidirectional line) 
+          (alternate "I2S1_MCK" bidirectional line) 
+          (alternate "SPI1_MISO" bidirectional line) 
+          (alternate "TIM16_CH1" bidirectional line) 
+          (alternate "TIM1_BK" bidirectional line) 
+          (alternate "TIM3_CH1" bidirectional line)) 
+        (pin bidirectional line 
+          (at 17.78 2.54 180) 
+          (length 2.54) 
+          (name "PA7" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "14" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (alternate "ADC1_IN7" bidirectional line) 
+          (alternate "I2S1_SD" bidirectional line) 
+          (alternate "SPI1_MOSI" bidirectional line) 
+          (alternate "TIM14_CH1" bidirectional line) 
+          (alternate "TIM17_CH1" bidirectional line) 
+          (alternate "TIM1_CH1N" bidirectional line) 
+          (alternate "TIM3_CH2" bidirectional line)) 
+        (pin bidirectional line 
+          (at -17.78 5.08 0) 
+          (length 2.54) 
+          (name "PB0" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "15" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (alternate "ADC1_IN8" bidirectional line) 
+          (alternate "I2S1_WS" bidirectional line) 
+          (alternate "SPI1_NSS" bidirectional line) 
+          (alternate "TIM1_CH2N" bidirectional line) 
+          (alternate "TIM3_CH3" bidirectional line)) 
+        (pin bidirectional line 
+          (at -17.78 2.54 0) 
+          (length 2.54) 
+          (name "PB1" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "16" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (alternate "ADC1_IN9" bidirectional line) 
+          (alternate "TIM14_CH1" bidirectional line) 
+          (alternate "TIM1_CH3N" bidirectional line) 
+          (alternate "TIM3_CH4" bidirectional line)) 
+        (pin bidirectional line 
+          (at -17.78 0 0) 
+          (length 2.54) 
+          (name "PB2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "17" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (alternate "ADC1_IN10" bidirectional line) 
+          (alternate "SPI2_MISO" bidirectional line)) 
+        (pin bidirectional line 
+          (at 17.78 0 180) 
+          (length 2.54) 
+          (name "PA8" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "18" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (alternate "RCC_MCO" bidirectional line) 
+          (alternate "SPI2_NSS" bidirectional line) 
+          (alternate "TIM1_CH1" bidirectional line)) 
+        (pin no_connect line 
+          (at -15.24 -22.86 0) 
+          (length 2.54) 
+          (hide yes) 
+          (name "NC/PA9" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "19" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (alternate "I2C1_SCL (PA9)" bidirectional line) 
+          (alternate "NC" bidirectional line) 
+          (alternate "PA9" bidirectional line) 
+          (alternate "RCC_MCO (PA9)" bidirectional line) 
+          (alternate "SPI2_MISO (PA9)" bidirectional line) 
+          (alternate "TIM1_CH2 (PA9)" bidirectional line) 
+          (alternate "USART1_TX (PA9)" bidirectional line)) 
+        (pin bidirectional line 
+          (at -17.78 15.24 0) 
+          (length 2.54) 
+          (name "PC6" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "20" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (alternate "TIM3_CH1" bidirectional line)) 
+        (pin no_connect line 
+          (at -15.24 -20.32 0) 
+          (length 2.54) 
+          (hide yes) 
+          (name "NC/PA10" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "21" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (alternate "I2C1_SDA (PA10)" bidirectional line) 
+          (alternate "NC" bidirectional line) 
+          (alternate "PA10" bidirectional line) 
+          (alternate "SPI2_MOSI (PA10)" bidirectional line) 
+          (alternate "TIM17_BK (PA10)" bidirectional line) 
+          (alternate "TIM1_CH3 (PA10)" bidirectional line) 
+          (alternate "USART1_RX (PA10)" bidirectional line)) 
+        (pin bidirectional line 
+          (at 17.78 -2.54 180) 
+          (length 2.54) 
+          (name "PA9/PA11" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "22" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (alternate "ADC1_EXTI11 (PA11)" bidirectional line) 
+          (alternate "ADC1_IN15 (PA11)" bidirectional line) 
+          (alternate "I2C1_SCL (PA9)" bidirectional line) 
+          (alternate "I2C2_SCL (PA11)" bidirectional line) 
+          (alternate "I2S1_MCK (PA11)" bidirectional line) 
+          (alternate "PA11" bidirectional line) 
+          (alternate "PA9" bidirectional line) 
+          (alternate "RCC_MCO (PA9)" bidirectional line) 
+          (alternate "SPI1_MISO (PA11)" bidirectional line) 
+          (alternate "SPI2_MISO (PA9)" bidirectional line) 
+          (alternate "TIM1_BK2 (PA11)" bidirectional line) 
+          (alternate "TIM1_CH2 (PA9)" bidirectional line) 
+          (alternate "TIM1_CH4 (PA11)" bidirectional line) 
+          (alternate "USART1_CTS (PA11)" bidirectional line) 
+          (alternate "USART1_NSS (PA11)" bidirectional line) 
+          (alternate "USART1_TX (PA9)" bidirectional line)) 
+        (pin bidirectional line 
+          (at 17.78 -5.08 180) 
+          (length 2.54) 
+          (name "PA10/PA12" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "23" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (alternate "ADC1_IN16 (PA12)" bidirectional line) 
+          (alternate "I2C1_SDA (PA10)" bidirectional line) 
+          (alternate "I2C2_SDA (PA12)" bidirectional line) 
+          (alternate "I2S1_SD (PA12)" bidirectional line) 
+          (alternate "I2S_CKIN (PA12)" bidirectional line) 
+          (alternate "PA10" bidirectional line) 
+          (alternate "PA12" bidirectional line) 
+          (alternate "SPI1_MOSI (PA12)" bidirectional line) 
+          (alternate "SPI2_MOSI (PA10)" bidirectional line) 
+          (alternate "TIM17_BK (PA10)" bidirectional line) 
+          (alternate "TIM1_CH3 (PA10)" bidirectional line) 
+          (alternate "TIM1_ETR (PA12)" bidirectional line) 
+          (alternate "USART1_CK (PA12)" bidirectional line) 
+          (alternate "USART1_DE (PA12)" bidirectional line) 
+          (alternate "USART1_RTS (PA12)" bidirectional line) 
+          (alternate "USART1_RX (PA10)" bidirectional line)) 
+        (pin bidirectional line 
+          (at 17.78 -7.62 180) 
+          (length 2.54) 
+          (name "PA13" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "24" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (alternate "ADC1_IN17" bidirectional line) 
+          (alternate "IR_OUT" bidirectional line) 
+          (alternate "SYS_SWDIO" bidirectional line)) 
+        (pin bidirectional line 
+          (at 17.78 -10.16 180) 
+          (length 2.54) 
+          (name "PA14" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "25" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (alternate "ADC1_IN18" bidirectional line) 
+          (alternate "SYS_SWCLK" bidirectional line) 
+          (alternate "USART2_TX" bidirectional line)) 
+        (pin bidirectional line 
+          (at 17.78 -12.7 180) 
+          (length 2.54) 
+          (name "PA15" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "26" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (alternate "I2S1_WS" bidirectional line) 
+          (alternate "SPI1_NSS" bidirectional line) 
+          (alternate "USART2_RX" bidirectional line)) 
+        (pin bidirectional line 
+          (at -17.78 -2.54 0) 
+          (length 2.54) 
+          (name "PB3" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "27" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (alternate "I2S1_CK" bidirectional line) 
+          (alternate "SPI1_SCK" bidirectional line) 
+          (alternate "TIM1_CH2" bidirectional line) 
+          (alternate "USART1_CK" bidirectional line) 
+          (alternate "USART1_DE" bidirectional line) 
+          (alternate "USART1_RTS" bidirectional line)) 
+        (pin bidirectional line 
+          (at -17.78 -5.08 0) 
+          (length 2.54) 
+          (name "PB4" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "28" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (alternate "I2S1_MCK" bidirectional line) 
+          (alternate "SPI1_MISO" bidirectional line) 
+          (alternate "TIM17_BK" bidirectional line) 
+          (alternate "TIM3_CH1" bidirectional line) 
+          (alternate "USART1_CTS" bidirectional line) 
+          (alternate "USART1_NSS" bidirectional line)) 
+        (pin bidirectional line 
+          (at -17.78 -7.62 0) 
+          (length 2.54) 
+          (name "PB5" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "29" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (alternate "I2C1_SMBA" bidirectional line) 
+          (alternate "I2S1_SD" bidirectional line) 
+          (alternate "SPI1_MOSI" bidirectional line) 
+          (alternate "SYS_WKUP6" bidirectional line) 
+          (alternate "TIM16_BK" bidirectional line) 
+          (alternate "TIM3_CH2" bidirectional line)) 
+        (pin bidirectional line 
+          (at -17.78 -10.16 0) 
+          (length 2.54) 
+          (name "PB6" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "30" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (alternate "I2C1_SCL" bidirectional line) 
+          (alternate "SPI2_MISO" bidirectional line) 
+          (alternate "TIM16_CH1N" bidirectional line) 
+          (alternate "TIM1_CH3" bidirectional line) 
+          (alternate "USART1_TX" bidirectional line)) 
+        (pin bidirectional line 
+          (at -17.78 -12.7 0) 
+          (length 2.54) 
+          (name "PB7" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "31" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (alternate "ADC1_IN11" bidirectional line) 
+          (alternate "I2C1_SDA" bidirectional line) 
+          (alternate "SPI2_MOSI" bidirectional line) 
+          (alternate "SYS_PVD_IN" bidirectional line) 
+          (alternate "TIM17_CH1N" bidirectional line) 
+          (alternate "USART1_RX" bidirectional line)) 
+        (pin bidirectional line 
+          (at -17.78 -15.24 0) 
+          (length 2.54) 
+          (name "PB8" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "32" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (alternate "I2C1_SCL" bidirectional line) 
+          (alternate "SPI2_SCK" bidirectional line) 
+          (alternate "TIM16_CH1" bidirectional line))) 
+      (embedded_fonts no)) 
+    (symbol "Regulator_Linear:LF33_TO252" 
+      (pin_names 
+        (offset 0.254)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (in_pos_files yes) 
+      (duplicate_pin_numbers_are_jumpers no) 
+      (property "Reference" "U" 
+        (at -3.81 3.175 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Value" "LF33_TO252" 
+        (at 0 3.175 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (justify left))) 
+      (property "Footprint" "Package_TO_SOT_SMD:TO-252-2" 
+        (at 0 5.715 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27) 
+            (italic yes)))) 
+      (property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf" 
+        (at 0 -1.27 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Description" "Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 3.3V, TO-252 (DPAK)" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_keywords" "LDO regulator voltage" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_fp_filters" "TO?252*" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (symbol "LF33_TO252_0_1" 
+        (rectangle 
+          (start -5.08 1.905) 
+          (end 5.08 -5.08) 
+          (stroke 
+            (width 0.254) 
+            (type default)) 
+          (fill 
+            (type background)))) 
+      (symbol "LF33_TO252_1_1" 
+        (pin power_in line 
+          (at -7.62 0 0) 
+          (length 2.54) 
+          (name "VI" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin power_in line 
+          (at 0 -7.62 90) 
+          (length 2.54) 
+          (name "GND" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "2" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin power_out line 
+          (at 7.62 0 180) 
+          (length 2.54) 
+          (name "VO" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "3" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no)) 
+    (symbol "Switch:SW_Push" 
+      (pin_numbers 
+        (hide yes)) 
+      (pin_names 
+        (offset 1.016) 
+        (hide yes)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (in_pos_files yes) 
+      (duplicate_pin_numbers_are_jumpers no) 
+      (property "Reference" "SW" 
+        (at 1.27 2.54 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (justify left))) 
+      (property "Value" "SW_Push" 
+        (at 0 -1.524 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Footprint" "" 
+        (at 0 5.08 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Datasheet" "" 
+        (at 0 5.08 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Description" "Push button switch, generic, two pins" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_keywords" "switch normally-open pushbutton push-button" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (symbol "SW_Push_0_1" 
+        (circle 
+          (center -2.032 0) 
+          (radius 0.508) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 0 1.27) 
+            (xy 0 3.048)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (circle 
+          (center 2.032 0) 
+          (radius 0.508) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 2.54 1.27) 
+            (xy -2.54 1.27)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (pin passive line 
+          (at -5.08 0 0) 
+          (length 2.54) 
+          (name "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at 5.08 0 180) 
+          (length 2.54) 
+          (name "2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no)) 
+    (symbol "power:+3.3V" 
+      (power global) 
+      (pin_numbers 
+        (hide yes)) 
+      (pin_names 
+        (offset 0) 
+        (hide yes)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (in_pos_files yes) 
+      (duplicate_pin_numbers_are_jumpers no) 
+      (property "Reference" "#PWR" 
+        (at 0 -3.81 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Value" "+3.3V" 
+        (at 0 3.556 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Footprint" "" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Datasheet" "" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Description" "Power symbol creates a global label with name \"+3.3V\"" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_keywords" "global power" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (symbol "+3.3V_0_1" 
+        (polyline 
+          (pts 
+            (xy -0.762 1.27) 
+            (xy 0 2.54)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 0 2.54) 
+            (xy 0.762 1.27)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 0 0) 
+            (xy 0 2.54)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none)))) 
+      (symbol "+3.3V_1_1" 
+        (pin power_in line 
+          (at 0 0 90) 
+          (length 0) 
+          (name "" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no)) 
+    (symbol "power:GND" 
+      (power global) 
+      (pin_numbers 
+        (hide yes)) 
+      (pin_names 
+        (offset 0) 
+        (hide yes)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (in_pos_files yes) 
+      (duplicate_pin_numbers_are_jumpers no) 
+      (property "Reference" "#PWR" 
+        (at 0 -6.35 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Value" "GND" 
+        (at 0 -3.81 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Footprint" "" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Datasheet" "" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Description" "Power symbol creates a global label with name \"GND\" , ground" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_keywords" "global power" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (symbol "GND_0_1" 
+        (polyline 
+          (pts 
+            (xy 0 0) 
+            (xy 0 -1.27) 
+            (xy 1.27 -1.27) 
+            (xy 0 -2.54) 
+            (xy -1.27 -1.27) 
+            (xy 0 -1.27)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none)))) 
+      (symbol "GND_1_1" 
+        (pin power_in line 
+          (at 0 0 270) 
+          (length 0) 
+          (name "" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no)) 
+    (symbol "power:PWR_FLAG" 
+      (power global) 
+      (pin_numbers 
+        (hide yes)) 
+      (pin_names 
+        (offset 0) 
+        (hide yes)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (in_pos_files yes) 
+      (duplicate_pin_numbers_are_jumpers no) 
+      (property "Reference" "#FLG" 
+        (at 0 1.905 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Value" "PWR_FLAG" 
+        (at 0 3.81 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Footprint" "" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Datasheet" "" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Description" "Special symbol for telling ERC where power comes from" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_keywords" "flag power" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (symbol "PWR_FLAG_0_0" 
+        (pin power_out line 
+          (at 0 0 90) 
+          (length 0) 
+          (name "" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (symbol "PWR_FLAG_0_1" 
+        (polyline 
+          (pts 
+            (xy 0 0) 
+            (xy 0 1.27) 
+            (xy -1.016 1.905) 
+            (xy 0 2.54) 
+            (xy 1.016 1.905) 
+            (xy 0 1.27)) 
+          (stroke 
+            (width 0) 
+            (type default)) 
+          (fill 
+            (type none)))) 
+      (embedded_fonts no))) 
+  (text "SWDIO" 
+    (exclude_from_sim no) 
+    (at 58.42 82.804 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27))) 
+    (uuid "2a06c5c1-fdb5-43f6-bc0f-0a5b91a97436")) 
+  (text "Zasilanie USB (handmade przewód)" 
+    (exclude_from_sim no) 
+    (at 29.972 38.1 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27))) 
+    (uuid "6b997f9e-6c5d-4a6d-988d-64256361f9aa")) 
+  (text "VDD" 
+    (exclude_from_sim no) 
+    (at 58.674 75.184 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27))) 
+    (uuid "6ebd5677-91aa-47a2-97a4-01ef455de98d")) 
+  (text "SWCLK" 
+    (exclude_from_sim no) 
+    (at 58.674 77.724 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27))) 
+    (uuid "725c994c-07ec-4734-b7b3-94eca610d19f")) 
+  (text "GND" 
+    (exclude_from_sim no) 
+    (at 58.42 80.264 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27))) 
+    (uuid "cbac1028-cd53-47eb-bae2-a0d76c3a5640")) 
+  (text "Złącze do programowania\n" 
+    (exclude_from_sim no) 
+    (at 64.77 91.44 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27))) 
+    (uuid "ddd22931-0fb6-4a63-95cb-8deaeea4368c")) 
+  (junction 
+    (at 120.65 73.66) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "0d6c6134-daf8-4970-8622-bd10d2fed621")) 
+  (junction 
+    (at 55.88 34.29) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "6729c426-543f-4598-b2fd-28e184add503")) 
+  (junction 
+    (at 134.62 20.32) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "6cc29645-0788-4e34-a1fc-242647880e17")) 
+  (junction 
+    (at 134.62 73.66) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "73396b41-990c-4bed-812e-78d9b2776d2d")) 
+  (junction 
+    (at 66.04 26.67) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "aa3124fd-aeb1-4618-9af8-7ed9fa8dfb35")) 
+  (junction 
+    (at 46.99 26.67) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "d75aa45f-5846-4476-b452-5f22072f6543")) 
+  (junction 
+    (at 81.28 26.67) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "f10dc276-fdef-4ae0-b0e6-9de2de58aa43")) 
+  (no_connect 
+    (at 116.84 45.72) 
+    (uuid "65f537bb-15cf-4e0b-b331-44186fdd1287")) 
+  (no_connect 
+    (at 116.84 53.34) 
+    (uuid "9bc99f89-a424-44c5-977c-743e8799b07f")) 
+  (no_connect 
+    (at 116.84 63.5) 
+    (uuid "a22d76ea-c4ce-4752-bb94-b255d57c1f93")) 
+  (no_connect 
+    (at 116.84 58.42) 
+    (uuid "aa59fffe-e1eb-49f3-bfe3-7ec9878e44aa")) 
+  (no_connect 
+    (at 152.4 53.34) 
+    (uuid "b6517c64-4809-4553-bfe5-f3abfb8423ab")) 
+  (no_connect 
+    (at 116.84 50.8) 
+    (uuid "eb08db45-65eb-4f41-9ff3-e3bf1b8025ac")) 
+  (no_connect 
+    (at 116.84 55.88) 
+    (uuid "f4babeb4-fbfb-4416-b85b-8d5384b0d188")) 
+  (no_connect 
+    (at 116.84 60.96) 
+    (uuid "f5669b84-7782-40f4-b126-839d1a053143")) 
+  (wire 
+    (pts 
+      (xy 27.94 26.67) 
+      (xy 46.99 26.67)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "0f8840c3-b0a7-4bc3-8328-81bc21d0cb2b")) 
+  (wire 
+    (pts 
+      (xy 152.4 55.88) 
+      (xy 165.1 55.88)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "2182f789-6aaf-4f46-b074-d6cb2f619737")) 
+  (wire 
+    (pts 
+      (xy 165.1 82.55) 
+      (xy 68.58 82.55)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "283315e4-c460-4146-8fb6-b57a0be9bbc4")) 
+  (wire 
+    (pts 
+      (xy 46.99 26.67) 
+      (xy 48.26 26.67)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "28b90e1a-f59e-47bf-a2c5-7d55d06971a3")) 
+  (wire 
+    (pts 
+      (xy 63.5 26.67) 
+      (xy 66.04 26.67)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "2f6ab250-c7e1-470e-b94b-68d37f94e433")) 
+  (wire 
+    (pts 
+      (xy 102.87 27.94) 
+      (xy 116.84 27.94)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "42a82915-bfe9-4cd3-b759-7f34d33f9e48")) 
+  (wire 
+    (pts 
+      (xy 120.65 73.66) 
+      (xy 134.62 73.66)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "4fa5e7cf-d391-4699-9499-88d25316b245")) 
+  (wire 
+    (pts 
+      (xy 102.87 17.78) 
+      (xy 102.87 16.51)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "5d0dc258-9517-49ca-a161-0031f6142815")) 
+  (wire 
+    (pts 
+      (xy 165.1 55.88) 
+      (xy 165.1 82.55)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "5e6f59c4-4708-4558-ba98-cbf43cc68a92")) 
+  (wire 
+    (pts 
+      (xy 81.28 26.67) 
+      (xy 87.63 26.67)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "5f02f2fb-e566-48ce-ab77-e47307d717f2")) 
+  (wire 
+    (pts 
+      (xy 78.74 80.01) 
+      (xy 78.74 77.47)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "62d2940b-695e-4d8c-b5d7-deeae662d8a9")) 
+  (wire 
+    (pts 
+      (xy 27.94 29.21) 
+      (xy 29.21 29.21)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "6474ff7c-7460-4ef0-8bc1-36a9e328251d")) 
+  (wire 
+    (pts 
+      (xy 161.29 58.42) 
+      (xy 161.29 80.01)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "71331ad1-6e3e-4042-87f9-0135d5e7d565")) 
+  (wire 
+    (pts 
+      (xy 102.87 25.4) 
+      (xy 102.87 27.94)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "71fe4c29-6733-4497-a2c7-09ae1f78807f")) 
+  (wire 
+    (pts 
+      (xy 68.58 77.47) 
+      (xy 78.74 77.47)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "74979b9a-99af-4167-9a31-480b03ed17d4")) 
+  (wire 
+    (pts 
+      (xy 100.33 66.04) 
+      (xy 116.84 66.04)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "7c9ef3e6-2ba6-462e-91f0-d4eb6ab49b01")) 
+  (wire 
+    (pts 
+      (xy 66.04 26.67) 
+      (xy 81.28 26.67)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "b0e79b3d-6c7c-42ca-9d8a-b4027c1a89e7")) 
+  (wire 
+    (pts 
+      (xy 46.99 34.29) 
+      (xy 66.04 34.29)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "b2cd8471-33a6-4719-a6cb-74ed57fdcef6")) 
+  (wire 
+    (pts 
+      (xy 106.68 73.66) 
+      (xy 120.65 73.66)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "c29c1ea9-5b39-448b-abbc-46fba233ac02")) 
+  (wire 
+    (pts 
+      (xy 106.68 20.32) 
+      (xy 106.68 52.07)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "cda41047-5a10-4fee-a2c2-fd95fd42e4f5")) 
+  (wire 
+    (pts 
+      (xy 161.29 80.01) 
+      (xy 78.74 80.01)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "da582cae-0a6c-41db-90a9-4ef0c7dfc4cb")) 
+  (wire 
+    (pts 
+      (xy 152.4 58.42) 
+      (xy 161.29 58.42)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "dd295268-c14e-4231-a652-48e03f6e306d")) 
+  (wire 
+    (pts 
+      (xy 90.17 66.04) 
+      (xy 86.36 66.04)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "dfe72ba8-0411-428a-b1c1-48bbae0e2d7b")) 
+  (wire 
+    (pts 
+      (xy 106.68 20.32) 
+      (xy 134.62 20.32)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "e3792ef8-e175-4e8e-93ec-2ab2c35de9cf")) 
+  (wire 
+    (pts 
+      (xy 106.68 59.69) 
+      (xy 106.68 73.66)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "e66377bf-5171-4e3f-8179-cc16f45c2fad")) 
+  (label "16" 
+    (at 116.84 35.56 180) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify right bottom)) 
+    (uuid "020cf9ab-3ad2-4c72-b541-08020eb9f2f0")) 
+  (label "12" 
+    (at 246.38 48.26 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "027137ab-0e37-435a-9768-962bfee265e3")) 
+  (label "9" 
+    (at 152.4 60.96 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "0662f327-f97e-4e4f-bbba-adf8ce9e514d")) 
+  (label "4" 
+    (at 152.4 45.72 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "140801df-7fea-4bb9-9f37-8d72e6bed519")) 
+  (label "13" 
+    (at 152.4 27.94 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "16938d7b-9b79-4ff3-830b-b63a4d8c2263")) 
+  (label "16" 
+    (at 271.78 48.26 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "20356ad3-3e4a-44f6-ac89-ce4121f42902")) 
+  (label "11" 
+    (at 152.4 48.26 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "362dba75-5625-428a-8da6-78abe0694e9a")) 
+  (label "8" 
+    (at 219.71 48.26 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "36caec48-cccc-4cae-8896-cff5c712a69b")) 
+  (label "5" 
+    (at 207.01 22.86 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "3c558b08-519c-4b4c-8b5e-ccef979896dd")) 
+  (label "10" 
+    (at 152.4 30.48 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "49ddc195-583a-4bcb-991d-b90b6562f444")) 
+  (label "14" 
+    (at 259.08 48.26 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "591dc276-b4e6-4da3-bde2-7e12a15cc9c8")) 
+  (label "7" 
+    (at 219.71 22.86 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "66b1f6d9-efaf-47a1-8dc8-72d351d96396")) 
+  (label "1" 
+    (at 180.34 22.86 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "6713e07f-3db7-440a-8f32-010046c44186")) 
+  (label "4" 
+    (at 195.58 48.26 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "717a0306-0009-451c-b0c7-c77375c988a0")) 
+  (label "15" 
+    (at 116.84 33.02 180) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify right bottom)) 
+    (uuid "73a3e1cf-b117-4bda-a119-15c26730dae7")) 
+  (label "8" 
+    (at 116.84 48.26 180) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify right bottom)) 
+    (uuid "7bb0750d-111f-4b77-a6fc-ed019145c0fe")) 
+  (label "15" 
+    (at 271.78 22.86 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "7ecf9099-1800-4036-b9d6-0f62dddc1342")) 
+  (label "6" 
+    (at 207.01 48.26 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "859a5d57-ae2b-420f-9010-8f4725b905cd")) 
+  (label "12" 
+    (at 152.4 50.8 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "88cb19b0-7645-483f-8636-95f1f7f1cea6")) 
+  (label "3" 
+    (at 195.58 22.86 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "9143b4df-08c3-4af6-b326-fb221f23a75d")) 
+  (label "6" 
+    (at 116.84 43.18 180) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify right bottom)) 
+    (uuid "937108f2-723d-45a4-83c3-dbf03986a091")) 
+  (label "10" 
+    (at 233.68 48.26 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "a4a875fd-1022-4ca5-8bf1-3e2d93d26a7a")) 
+  (label "7" 
+    (at 152.4 33.02 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "afe48bad-92ed-44eb-a506-b74540a1eab0")) 
+  (label "9" 
+    (at 233.68 22.86 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "b31e51e2-98be-4006-8fe9-c474299b8472")) 
+  (label "3" 
+    (at 152.4 38.1 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "c05e86d0-79c7-4cfa-ac3b-aa2ceefff3a7")) 
+  (label "11" 
+    (at 246.38 22.86 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "cbee0251-fd9c-440b-a889-104ded5f73d7")) 
+  (label "2" 
+    (at 180.34 48.26 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "cf2d7b28-5d72-4498-b235-df9a09f20bff")) 
+  (label "2" 
+    (at 152.4 43.18 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "d90f115c-ba64-476b-b546-a8c2663cd664")) 
+  (label "5" 
+    (at 152.4 35.56 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "e626415c-4911-474f-beb2-b559fe68a683")) 
+  (label "14" 
+    (at 116.84 38.1 180) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify right bottom)) 
+    (uuid "f2e1ceb3-6052-4278-9f26-c14c9285657c")) 
+  (label "1" 
+    (at 152.4 40.64 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "f6080ade-6d0f-42d7-b79b-eeac3454e976")) 
+  (label "13" 
+    (at 259.08 22.86 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "fbbd961c-dcc1-4879-874c-a1fd14ec8918")) 
+  (symbol 
+    (lib_id "power:PWR_FLAG") 
+    (at 46.99 26.67 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (uuid "00abd924-f808-4f84-9c80-2343a2c64bc9") 
+    (property "Reference" "#FLG01" 
+      (at 46.99 24.765 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "PWR_FLAG" 
+      (at 41.656 23.114 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "" 
+      (at 46.99 26.67 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 46.99 26.67 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Special symbol for telling ERC where power comes from" 
+      (at 46.99 26.67 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "6f2bc034-bba5-404f-8af7-04267fa9c7d0")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "#FLG01") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 180.34 38.1 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "0426e790-5732-4c45-8860-322e2ec7c14c") 
+    (property "Reference" "#PWR011" 
+      (at 180.34 44.45 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "GND" 
+      (at 180.34 43.18 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "" 
+      (at 180.34 38.1 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 180.34 38.1 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground" 
+      (at 180.34 38.1 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "c285d7fa-3755-4abe-88fa-25ae5554e299")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "#PWR011") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:LED") 
+    (at 180.34 34.29 90) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "04545b90-99ca-4dc1-8467-d61d204ed482") 
+    (property "Reference" "D1" 
+      (at 184.15 34.6074 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Value" "LED" 
+      (at 184.15 37.1474 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Footprint" "LED_THT:LED_D5.0mm" 
+      (at 180.34 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 180.34 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Light emitting diode" 
+      (at 180.34 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Sim.Pins" "1=K 2=A" 
+      (at 180.34 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "f0220e06-9fd7-46e2-975d-d631856fd091")) 
+    (pin "2" 
+      (uuid "f97107bc-9400-440c-8097-38d8307b216b")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "D1") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:C_Polarized") 
+    (at 66.04 30.48 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (uuid "07a7483b-49ad-4567-a2b8-8c19bfa0397c") 
+    (property "Reference" "C2" 
+      (at 69.85 29.972 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "2.2u" 
+      (at 69.088 31.8769 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "Capacitor_SMD:CP_Elec_4x5.3" 
+      (at 67.0052 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 66.04 30.48 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Polarized capacitor" 
+      (at 66.04 30.48 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "a1e47feb-3aa0-416d-8a4c-61a3283698f3")) 
+    (pin "2" 
+      (uuid "0df1e1a5-8b78-4148-aab6-acfd9b8bfbcd")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "C2") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:+3.3V") 
+    (at 68.58 74.93 270) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "0bced7cf-c5a8-4836-ad9c-1135c071568c") 
+    (property "Reference" "#PWR03" 
+      (at 64.77 74.93 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "+3.3V" 
+      (at 72.39 74.9299 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "" 
+      (at 68.58 74.93 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 68.58 74.93 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Power symbol creates a global label with name \"+3.3V\"" 
+      (at 68.58 74.93 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "93fe94fa-e1df-4489-92b2-a157411ae8d1")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "#PWR03") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 246.38 38.1 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "0e2c7af0-a518-4f4d-b276-699e86bb0e3c") 
+    (property "Reference" "#PWR021" 
+      (at 246.38 44.45 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "GND" 
+      (at 246.38 43.18 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "" 
+      (at 246.38 38.1 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 246.38 38.1 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground" 
+      (at 246.38 38.1 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "bcf44149-225d-4e0e-b40f-ebaf735a062b")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "#PWR021") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 134.62 73.66 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "1349f7a3-60d0-49bb-b9ad-99fd04554e91") 
+    (property "Reference" "#PWR010" 
+      (at 134.62 80.01 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "GND" 
+      (at 134.62 78.74 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "" 
+      (at 134.62 73.66 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 134.62 73.66 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground" 
+      (at 134.62 73.66 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "256b1da8-2a0b-4064-9f96-0043a207cb95")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "#PWR010") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:C") 
+    (at 81.28 30.48 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (uuid "1d3af387-5cac-48ff-b0b3-420e81b053d6") 
+    (property "Reference" "C3" 
+      (at 75.946 29.972 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "4.7u" 
+      (at 74.93 32.004 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" 
+      (at 82.2452 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 81.28 30.48 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Unpolarized capacitor" 
+      (at 81.28 30.48 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "2" 
+      (uuid "3bb26bc6-fd01-4c9e-9c0b-41b324a9acf3")) 
+    (pin "1" 
+      (uuid "b8e7a64b-8152-4a35-b21a-8b9c3e29d471")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "C3") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:LED") 
+    (at 246.38 59.69 90) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "1f05d786-6ab5-40d4-b3eb-96fb00c4863d") 
+    (property "Reference" "D12" 
+      (at 250.19 60.0074 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Value" "LED" 
+      (at 250.19 62.5474 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Footprint" "LED_THT:LED_D5.0mm" 
+      (at 246.38 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 246.38 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Light emitting diode" 
+      (at 246.38 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Sim.Pins" "1=K 2=A" 
+      (at 246.38 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "57201858-0f76-4891-bbf4-b555f53542d9")) 
+    (pin "2" 
+      (uuid "575721d7-7869-4c3c-a4b3-557fd4a65bc8")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "D12") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 207.01 63.5 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "1fa62644-3dcb-441f-a465-27668c7fb370") 
+    (property "Reference" "#PWR016" 
+      (at 207.01 69.85 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "GND" 
+      (at 207.01 68.58 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "" 
+      (at 207.01 63.5 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 207.01 63.5 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground" 
+      (at 207.01 63.5 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "b9ae6efb-d718-4a67-ad86-76fcfe082f73")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "#PWR016") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 68.58 80.01 90) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "208d6609-8747-48f8-b8df-b7c58573c36e") 
+    (property "Reference" "#PWR04" 
+      (at 74.93 80.01 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "GND" 
+      (at 72.39 80.0099 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Footprint" "" 
+      (at 68.58 80.01 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 68.58 80.01 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground" 
+      (at 68.58 80.01 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "9bf7e629-cc07-4306-a0ac-fed26a5da34e")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "#PWR04") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:LED") 
+    (at 246.38 34.29 90) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "2b35478d-1209-48eb-8d2a-f2ed0dff04ae") 
+    (property "Reference" "D11" 
+      (at 250.19 34.6074 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Value" "LED" 
+      (at 250.19 37.1474 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Footprint" "LED_THT:LED_D5.0mm" 
+      (at 246.38 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 246.38 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Light emitting diode" 
+      (at 246.38 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Sim.Pins" "1=K 2=A" 
+      (at 246.38 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "c7672de3-419f-4cc4-8fa0-e9cde26f0698")) 
+    (pin "2" 
+      (uuid "821e1cf5-3c38-4bbc-8b63-0c736aae7b59")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "D11") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:LED") 
+    (at 219.71 34.29 90) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "2cf4925a-451e-40ca-8306-8ee805225174") 
+    (property "Reference" "D7" 
+      (at 223.52 34.6074 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Value" "LED" 
+      (at 223.52 37.1474 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Footprint" "LED_THT:LED_D5.0mm" 
+      (at 219.71 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 219.71 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Light emitting diode" 
+      (at 219.71 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Sim.Pins" "1=K 2=A" 
+      (at 219.71 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "ded2fe1b-ed1f-41cd-8643-cf55554d6d8f")) 
+    (pin "2" 
+      (uuid "2a3891fd-aacc-414d-93ac-197c3205ab99")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "D7") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:+3.3V") 
+    (at 87.63 26.67 180) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (uuid "383668ff-5787-4fef-83f0-2e2a1687673d") 
+    (property "Reference" "#PWR07" 
+      (at 87.63 22.86 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "+3.3V" 
+      (at 91.186 26.924 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "" 
+      (at 87.63 26.67 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 87.63 26.67 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Power symbol creates a global label with name \"+3.3V\"" 
+      (at 87.63 26.67 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "816cc5de-cbe3-49ab-a22c-abcb4c340dc9")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "#PWR07") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "MCU_ST_STM32G0:STM32G030K8Tx") 
+    (at 134.62 48.26 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (uuid "3e1a2693-9136-4c9a-94f1-7a86f42f0d08") 
+    (property "Reference" "U2" 
+      (at 136.7633 17.78 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "STM32G030K8Tx" 
+      (at 136.7633 20.32 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "Package_QFP:LQFP-32_7x7mm_P0.8mm" 
+      (at 119.38 71.12 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g030k8.pdf" 
+      (at 134.62 48.26 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 64KB flash, 8KB RAM, 64 MHz, 2.0-3.6V, 29 GPIO, LQFP32" 
+      (at 134.62 48.26 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "10" 
+      (uuid "193880b7-561d-4e58-9e78-dd77d205c755")) 
+    (pin "12" 
+      (uuid "4365a82b-e274-4657-a5dc-9fc07c0fcbf2")) 
+    (pin "22" 
+      (uuid "2e0a135d-85f9-45fc-a8ea-14d06dee0414")) 
+    (pin "15" 
+      (uuid "97f921a3-0185-448a-a936-97bd4f395424")) 
+    (pin "16" 
+      (uuid "c007ed34-4079-41db-b647-e3a8aaef06f0")) 
+    (pin "2" 
+      (uuid "9656dc9b-b6b8-4bbc-a59e-656612572322")) 
+    (pin "11" 
+      (uuid "df2664b1-2107-48a7-9912-1c6efd1388c3")) 
+    (pin "19" 
+      (uuid "30e76e42-b1a3-435d-bd98-d20d76e1edc1")) 
+    (pin "8" 
+      (uuid "2645d1a2-b333-4c85-9765-00bdd39a9304")) 
+    (pin "9" 
+      (uuid "2a3f44de-a766-425b-be2c-090ad7f625a4")) 
+    (pin "14" 
+      (uuid "88178c9b-3ae7-49f7-8785-734210a2f322")) 
+    (pin "18" 
+      (uuid "265acc1d-09ae-44d7-a7b9-b23bb07ade52")) 
+    (pin "20" 
+      (uuid "f23fdf23-f51f-47fa-a9e2-38eca62817a3")) 
+    (pin "13" 
+      (uuid "04b26194-f993-4b41-872f-68f361c0d32b")) 
+    (pin "6" 
+      (uuid "8671450d-d01c-408a-8986-f864dfe7237c")) 
+    (pin "3" 
+      (uuid "8472cdda-99c0-49a0-8c85-c297c4881b97")) 
+    (pin "5" 
+      (uuid "da122bae-27c6-4bb5-8a37-e075d2db906e")) 
+    (pin "1" 
+      (uuid "a83ab208-d33b-4971-a254-8a3b6224a4c8")) 
+    (pin "21" 
+      (uuid "d28532d7-bc3b-4697-8714-c1c978621112")) 
+    (pin "26" 
+      (uuid "98194e89-31e7-4b84-a467-d0b043f145ea")) 
+    (pin "4" 
+      (uuid "19f30224-f972-47a5-9384-16925a874d9c")) 
+    (pin "7" 
+      (uuid "78823c09-b233-40ae-b921-d9762236f101")) 
+    (pin "17" 
+      (uuid "9cd322ac-6d68-402c-a841-049a0e2dc3bd")) 
+    (pin "30" 
+      (uuid "02fb5977-5d24-4b81-a77a-4624c07814cd")) 
+    (pin "28" 
+      (uuid "dd9f0caf-6d8e-4fc9-90e6-ec3b1da70dcd")) 
+    (pin "23" 
+      (uuid "a8bff2eb-113f-4a16-82ea-19865ae1ce0f")) 
+    (pin "24" 
+      (uuid "a6bbcecd-8747-47e8-a9e6-a7d49a869e9e")) 
+    (pin "27" 
+      (uuid "ff3e576f-9428-44d5-a683-b24352bedd72")) 
+    (pin "31" 
+      (uuid "4ade3b8f-eb2c-423a-b541-a8def9c0361e")) 
+    (pin "25" 
+      (uuid "879c8a2d-10d0-4d85-af4a-9da0a074c581")) 
+    (pin "29" 
+      (uuid "99c949ce-270d-40e6-90bf-6ca732d48272")) 
+    (pin "32" 
+      (uuid "2fe42a0d-463d-4287-9156-4750c4a21971")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "U2") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 207.01 38.1 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "3e2f52f5-c063-40bc-aa0f-927d8d711ba3") 
+    (property "Reference" "#PWR015" 
+      (at 207.01 44.45 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "GND" 
+      (at 207.01 43.18 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "" 
+      (at 207.01 38.1 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 207.01 38.1 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground" 
+      (at 207.01 38.1 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "f91fb6b3-38d9-415b-9149-e748de40ef68")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "#PWR015") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:LED") 
+    (at 180.34 59.69 90) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "3f7616cf-e369-4e89-9ed0-2c710586834d") 
+    (property "Reference" "D2" 
+      (at 184.15 60.0074 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Value" "LED" 
+      (at 184.15 62.5474 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Footprint" "LED_THT:LED_D5.0mm" 
+      (at 180.34 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 180.34 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Light emitting diode" 
+      (at 180.34 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Sim.Pins" "1=K 2=A" 
+      (at 180.34 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "39320c17-bc19-47aa-a383-671c87d4ad3b")) 
+    (pin "2" 
+      (uuid "7b98c85b-101d-4747-817b-d648d3208e33")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "D2") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 271.78 63.5 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "450d6883-9f0d-4433-8076-0ac8fe35be84") 
+    (property "Reference" "#PWR026" 
+      (at 271.78 69.85 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "GND" 
+      (at 271.78 68.58 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "" 
+      (at 271.78 63.5 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 271.78 63.5 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground" 
+      (at 271.78 63.5 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "7f1fc912-0745-4fd6-9350-631bc8aa14c3")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "#PWR026") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:R_US") 
+    (at 219.71 52.07 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "45cd6992-1085-4ffb-9369-f3480b697f75") 
+    (property "Reference" "R8" 
+      (at 222.25 50.7999 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "510" 
+      (at 222.25 53.3399 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" 
+      (at 220.726 52.324 90) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 219.71 52.07 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Resistor, US symbol" 
+      (at 219.71 52.07 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "e3ce615f-21cf-426b-8489-1a7bb1a03049")) 
+    (pin "2" 
+      (uuid "3d37d056-7987-4323-9211-bac29e85164e")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "R8") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 81.28 34.29 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "47607209-e3de-4c34-8f1f-32879c826844") 
+    (property "Reference" "#PWR05" 
+      (at 81.28 40.64 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "GND" 
+      (at 81.28 39.37 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "" 
+      (at 81.28 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 81.28 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground" 
+      (at 81.28 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "db37bf45-532c-4e17-9230-9e18981292e7")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "#PWR05") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:R_US") 
+    (at 259.08 52.07 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "47bcd490-54bb-4e05-bd1d-6b84f0263597") 
+    (property "Reference" "R14" 
+      (at 261.62 50.7999 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "510" 
+      (at 261.62 53.3399 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" 
+      (at 260.096 52.324 90) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 259.08 52.07 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Resistor, US symbol" 
+      (at 259.08 52.07 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "eb30c367-2846-4c2d-8ee9-4a559f02ebc9")) 
+    (pin "2" 
+      (uuid "79a40e41-bfdc-4849-8dd0-e97b3e869a2d")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "R14") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Connector:Conn_01x04_Socket") 
+    (at 63.5 77.47 0) 
+    (mirror y) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (uuid "4a0da0ad-059e-4897-b039-e6cbd46bccdf") 
+    (property "Reference" "J1" 
+      (at 65.786 68.326 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "Conn_01x04_Socket" 
+      (at 66.04 70.612 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left" 
+      (at 63.5 77.47 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 63.5 77.47 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Generic connector, single row, 01x04, script generated" 
+      (at 63.5 77.47 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "d284de94-0f81-424b-9991-e40c252e11dd")) 
+    (pin "3" 
+      (uuid "6f0f8a05-0345-494b-ab17-4c13375d77f4")) 
+    (pin "2" 
+      (uuid "bfcd9c51-0dc3-40f5-912a-fd8b09ef452d")) 
+    (pin "4" 
+      (uuid "1b6f0ed7-97d2-4738-b89d-7e628845f2aa")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "J1") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:LED") 
+    (at 271.78 59.69 90) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "4c2cdbf0-bf7a-4d27-ad0b-07e4976512da") 
+    (property "Reference" "D16" 
+      (at 275.59 60.0074 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Value" "LED" 
+      (at 275.59 62.5474 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Footprint" "LED_THT:LED_D5.0mm" 
+      (at 271.78 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 271.78 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Light emitting diode" 
+      (at 271.78 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Sim.Pins" "1=K 2=A" 
+      (at 271.78 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "dc55106e-43f9-4ec8-b496-317f9c7bc9a7")) 
+    (pin "2" 
+      (uuid "5d211d0c-1997-4f4f-96ee-074746914530")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "D16") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 219.71 38.1 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "4c53ae46-b230-4d37-8c63-d56dce9ff7f0") 
+    (property "Reference" "#PWR017" 
+      (at 219.71 44.45 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "GND" 
+      (at 219.71 43.18 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "" 
+      (at 219.71 38.1 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 219.71 38.1 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground" 
+      (at 219.71 38.1 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "42cbccfd-58c1-4226-a3a7-e7130e654b63")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "#PWR017") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:C") 
+    (at 102.87 21.59 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (uuid "4f172cb5-1284-40ec-af9b-9e962a8445d2") 
+    (property "Reference" "C4" 
+      (at 97.028 20.32 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "100n" 
+      (at 96.012 22.352 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" 
+      (at 103.8352 25.4 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 102.87 21.59 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Unpolarized capacitor" 
+      (at 102.87 21.59 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "2" 
+      (uuid "d9e791cd-edc3-4fda-81ac-be32dbd605f3")) 
+    (pin "1" 
+      (uuid "bb72c6ab-8a63-4133-bb6b-66ec966bd06e")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "C4") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:LED") 
+    (at 219.71 59.69 90) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "50fbf02f-c276-4910-985f-2321e38a18fe") 
+    (property "Reference" "D8" 
+      (at 223.52 60.0074 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Value" "LED" 
+      (at 223.52 62.5474 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Footprint" "LED_THT:LED_D5.0mm" 
+      (at 219.71 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 219.71 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Light emitting diode" 
+      (at 219.71 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Sim.Pins" "1=K 2=A" 
+      (at 219.71 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "9312c7df-13b0-4476-b88b-f6bb3c90ee40")) 
+    (pin "2" 
+      (uuid "7c357145-d91d-473c-8c28-080fedc88dd6")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "D8") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:R_US") 
+    (at 219.71 26.67 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "55e3e09b-39f6-4162-b6cf-65294fbfb587") 
+    (property "Reference" "R7" 
+      (at 222.25 25.3999 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "510" 
+      (at 222.25 27.9399 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" 
+      (at 220.726 26.924 90) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 219.71 26.67 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Resistor, US symbol" 
+      (at 219.71 26.67 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "8fe6804e-7282-4c26-89d4-c13704f43c17")) 
+    (pin "2" 
+      (uuid "7f7f39ac-d38f-46ba-b879-e3ee52bc8b87")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "R7") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:+3.3V") 
+    (at 134.62 20.32 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "5df9a6f9-3b4c-4eb3-902a-55745700c8b9") 
+    (property "Reference" "#PWR09" 
+      (at 134.62 24.13 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "+3.3V" 
+      (at 134.62 15.24 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "" 
+      (at 134.62 20.32 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 134.62 20.32 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Power symbol creates a global label with name \"+3.3V\"" 
+      (at 134.62 20.32 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "5742eabc-5aca-4877-aafc-bafe96683b4d")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "#PWR09") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 195.58 38.1 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "6362b9bc-315e-4347-8b30-659810e6cdec") 
+    (property "Reference" "#PWR013" 
+      (at 195.58 44.45 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "GND" 
+      (at 195.58 43.18 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "" 
+      (at 195.58 38.1 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 195.58 38.1 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground" 
+      (at 195.58 38.1 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "0d022efd-fb79-408c-a881-7174d1db0696")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "#PWR013") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:R_US") 
+    (at 207.01 52.07 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "6e8452c1-df92-4aef-9905-d1b0de693294") 
+    (property "Reference" "R6" 
+      (at 209.55 50.7999 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "510" 
+      (at 209.55 53.3399 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" 
+      (at 208.026 52.324 90) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 207.01 52.07 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Resistor, US symbol" 
+      (at 207.01 52.07 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "0570afd0-1c34-4d05-a552-948f5a69da4a")) 
+    (pin "2" 
+      (uuid "a469ccf3-57a6-4a57-af5e-17e912d8e20c")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "R6") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:LED") 
+    (at 259.08 34.29 90) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "71e6cf63-d671-4ae5-b9b8-5aacf356c7e4") 
+    (property "Reference" "D13" 
+      (at 262.89 34.6074 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Value" "LED" 
+      (at 262.89 37.1474 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Footprint" "LED_THT:LED_D5.0mm" 
+      (at 259.08 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 259.08 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Light emitting diode" 
+      (at 259.08 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Sim.Pins" "1=K 2=A" 
+      (at 259.08 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "a3fa1729-0763-44f1-91f4-c6ef6a7af1b9")) 
+    (pin "2" 
+      (uuid "1f7607cd-0574-4822-8fd6-6943aa5770e4")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "D13") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 86.36 66.04 270) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "74dff7ad-7e78-4d16-bd10-7c07ea62db0c") 
+    (property "Reference" "#PWR06" 
+      (at 80.01 66.04 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "GND" 
+      (at 82.55 66.0399 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Footprint" "" 
+      (at 86.36 66.04 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 86.36 66.04 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground" 
+      (at 86.36 66.04 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "a5bed7e3-230e-40bb-8b55-eae8f4a40afd")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "#PWR06") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:LED") 
+    (at 259.08 59.69 90) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "76a39d82-3eb4-4bd7-b6b7-a831764bbb66") 
+    (property "Reference" "D14" 
+      (at 262.89 60.0074 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Value" "LED" 
+      (at 262.89 62.5474 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Footprint" "LED_THT:LED_D5.0mm" 
+      (at 259.08 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 259.08 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Light emitting diode" 
+      (at 259.08 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Sim.Pins" "1=K 2=A" 
+      (at 259.08 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "93ab5755-0baf-4877-9061-c836af1605c8")) 
+    (pin "2" 
+      (uuid "bdc1c5e6-3179-4dba-ae49-ad016f2bc8b2")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "D14") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:R_US") 
+    (at 233.68 26.67 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "785a5db0-6c28-40e8-a2f1-aa8d3d64f1fc") 
+    (property "Reference" "R9" 
+      (at 236.22 25.3999 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "510" 
+      (at 236.22 27.9399 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" 
+      (at 234.696 26.924 90) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 233.68 26.67 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Resistor, US symbol" 
+      (at 233.68 26.67 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "80bcc4ee-8e95-4fc8-b9f4-8c71a51f472c")) 
+    (pin "2" 
+      (uuid "1f2f6959-5fc9-42bf-9a89-3788fd056a21")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "R9") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 102.87 16.51 180) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (uuid "7dccd6ea-1443-41f2-8f47-4a2e93f5cbb2") 
+    (property "Reference" "#PWR08" 
+      (at 102.87 10.16 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "GND" 
+      (at 106.172 14.986 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "" 
+      (at 102.87 16.51 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 102.87 16.51 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground" 
+      (at 102.87 16.51 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "e9961bcb-f305-4449-9ca3-ca864070531e")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "#PWR08") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 271.78 38.1 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "7fc85517-1160-416a-ae2a-65b962979f4d") 
+    (property "Reference" "#PWR025" 
+      (at 271.78 44.45 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "GND" 
+      (at 271.78 43.18 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "" 
+      (at 271.78 38.1 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 271.78 38.1 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground" 
+      (at 271.78 38.1 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "28692c5b-b6cc-418a-a404-bc5349a09017")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "#PWR025") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Regulator_Linear:LF33_TO252") 
+    (at 55.88 26.67 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "859e953b-3717-4fa9-815b-3bdb4f2fd591") 
+    (property "Reference" "U1" 
+      (at 55.88 20.32 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "LF33_TO252" 
+      (at 55.88 22.86 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "Package_TO_SOT_SMD:TO-252-2" 
+      (at 55.88 20.955 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27) 
+          (italic yes)))) 
+    (property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf" 
+      (at 55.88 27.94 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 3.3V, TO-252 (DPAK)" 
+      (at 55.88 26.67 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "3" 
+      (uuid "571971f2-c693-45ec-8a21-82c76a98db7d")) 
+    (pin "1" 
+      (uuid "7361d6d3-3bee-4262-835b-6c97f4fdc89b")) 
+    (pin "2" 
+      (uuid "4857fc57-3274-4c35-b66d-788a9bb327f4")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "U1") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:R_US") 
+    (at 195.58 52.07 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "8bc83fab-07fb-41f3-a72a-0effa279d1dc") 
+    (property "Reference" "R4" 
+      (at 198.12 50.7999 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "510" 
+      (at 198.12 53.3399 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" 
+      (at 196.596 52.324 90) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 195.58 52.07 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Resistor, US symbol" 
+      (at 195.58 52.07 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "6d909621-b995-441f-96f7-9897c6f11343")) 
+    (pin "2" 
+      (uuid "fef15184-ad68-4604-869b-0716fe930653")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "R4") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 259.08 63.5 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "8d8326b1-f769-46a4-838d-7b17fe56c580") 
+    (property "Reference" "#PWR024" 
+      (at 259.08 69.85 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "GND" 
+      (at 259.08 68.58 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "" 
+      (at 259.08 63.5 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 259.08 63.5 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground" 
+      (at 259.08 63.5 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "2752e34e-b588-4f09-975a-8f54c1bf895e")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "#PWR024") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Connector:TestPoint") 
+    (at 27.94 29.21 90) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (uuid "919ba5b6-34da-4008-a24d-d5d4fb17a61c") 
+    (property "Reference" "TP2" 
+      (at 24.638 31.242 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "GND" 
+      (at 24.638 33.782 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm" 
+      (at 27.94 24.13 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 27.94 24.13 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "test point" 
+      (at 27.94 29.21 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "fee50a51-c729-4a0b-8956-732e8d8c2547")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "TP2") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 180.34 63.5 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "93b4ba8f-f675-4c97-ac57-1d36b7d6f668") 
+    (property "Reference" "#PWR012" 
+      (at 180.34 69.85 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "GND" 
+      (at 180.34 68.58 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "" 
+      (at 180.34 63.5 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 180.34 63.5 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground" 
+      (at 180.34 63.5 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "77aec6a7-e032-493c-b763-ae317f6a9074")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "#PWR012") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:C") 
+    (at 46.99 30.48 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (uuid "93ba96ba-8d56-4b8a-a916-8ef73ebd8b97") 
+    (property "Reference" "C1" 
+      (at 41.148 29.21 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "100n" 
+      (at 40.132 31.242 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" 
+      (at 47.9552 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 46.99 30.48 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Unpolarized capacitor" 
+      (at 46.99 30.48 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "2" 
+      (uuid "c58c3ea8-14f0-490d-bfe8-795943b2d7eb")) 
+    (pin "1" 
+      (uuid "15a5ca3e-52c2-4a25-980c-1cc30fd722b3")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "C1") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 219.71 63.5 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "98843334-349a-483c-bb38-fe8d68f969c5") 
+    (property "Reference" "#PWR018" 
+      (at 219.71 69.85 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "GND" 
+      (at 219.71 68.58 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "" 
+      (at 219.71 63.5 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 219.71 63.5 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground" 
+      (at 219.71 63.5 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "19b33166-fc3e-4aba-9449-0f9668d2abb2")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "#PWR018") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:LED") 
+    (at 207.01 59.69 90) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "9f9412db-5f78-45d8-9891-1e41b8d32896") 
+    (property "Reference" "D6" 
+      (at 210.82 60.0074 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Value" "LED" 
+      (at 210.82 62.5474 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Footprint" "LED_THT:LED_D5.0mm" 
+      (at 207.01 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 207.01 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Light emitting diode" 
+      (at 207.01 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Sim.Pins" "1=K 2=A" 
+      (at 207.01 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "a85ea0a1-1c97-4e64-82ec-5934079d4ac3")) 
+    (pin "2" 
+      (uuid "892990fb-ddf4-493c-84a3-4fad194c822e")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "D6") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Switch:SW_Push") 
+    (at 95.25 66.04 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "a24e6017-c4b7-4258-b104-210c55b90745") 
+    (property "Reference" "SW1" 
+      (at 95.25 58.42 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "SW_Push" 
+      (at 95.25 60.96 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS" 
+      (at 95.25 60.96 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 95.25 60.96 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Push button switch, generic, two pins" 
+      (at 95.25 66.04 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "b82b2cfe-589c-4a20-8cc1-523802fbe509")) 
+    (pin "2" 
+      (uuid "a5b984f4-cc99-4e59-a43a-939b2f764ba3")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "SW1") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:R_US") 
+    (at 180.34 52.07 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "a27264dc-5822-4204-bef0-9959b1fb5744") 
+    (property "Reference" "R2" 
+      (at 182.88 50.7999 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "510" 
+      (at 182.88 53.3399 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" 
+      (at 181.356 52.324 90) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 180.34 52.07 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Resistor, US symbol" 
+      (at 180.34 52.07 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "be28cb26-cf95-478e-b5f6-0e2b80ecd5ca")) 
+    (pin "2" 
+      (uuid "37d47c3f-6722-4fec-b0d9-79cd86c64436")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "R2") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:LED") 
+    (at 271.78 34.29 90) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "a2a1b52a-f67e-4e23-8e8d-d2ebaf4f2665") 
+    (property "Reference" "D15" 
+      (at 275.59 34.6074 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Value" "LED" 
+      (at 275.59 37.1474 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Footprint" "LED_THT:LED_D5.0mm" 
+      (at 271.78 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 271.78 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Light emitting diode" 
+      (at 271.78 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Sim.Pins" "1=K 2=A" 
+      (at 271.78 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "1f9f8994-a745-4e6e-908a-9073e8568515")) 
+    (pin "2" 
+      (uuid "c54133ad-90c1-42d3-8a1d-aa310c6c75f3")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "D15") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:C") 
+    (at 106.68 55.88 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (uuid "a3f92dfb-c26c-4546-9de4-a9a835b20d46") 
+    (property "Reference" "C5" 
+      (at 100.838 54.61 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "100n" 
+      (at 99.822 56.642 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" 
+      (at 107.6452 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 106.68 55.88 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Unpolarized capacitor" 
+      (at 106.68 55.88 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "2" 
+      (uuid "a5296d5f-f0a4-45a5-9149-e6cd0e0ca983")) 
+    (pin "1" 
+      (uuid "a0d3e665-4e86-431b-b75a-ba7a83da1525")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "C5") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:R_US") 
+    (at 271.78 52.07 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "a445dfb7-827c-417d-980c-02ad7451d97a") 
+    (property "Reference" "R16" 
+      (at 274.32 50.7999 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "510" 
+      (at 274.32 53.3399 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" 
+      (at 272.796 52.324 90) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 271.78 52.07 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Resistor, US symbol" 
+      (at 271.78 52.07 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "58081098-3daa-48c3-8585-899bb3cb8148")) 
+    (pin "2" 
+      (uuid "97807d5c-9870-4a60-9f50-31f65e596045")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "R16") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 55.88 34.29 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "aa94aceb-3f5b-4c14-a6c0-202171e76c57") 
+    (property "Reference" "#PWR02" 
+      (at 55.88 40.64 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "GND" 
+      (at 55.88 39.37 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "" 
+      (at 55.88 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 55.88 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground" 
+      (at 55.88 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "526e879f-64a4-421f-847a-d31d4166f10c")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "#PWR02") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 233.68 63.5 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "acad55af-e338-435c-8904-57a002334b29") 
+    (property "Reference" "#PWR020" 
+      (at 233.68 69.85 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "GND" 
+      (at 233.68 68.58 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "" 
+      (at 233.68 63.5 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 233.68 63.5 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground" 
+      (at 233.68 63.5 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "532cb372-3d2c-49cf-90e5-584d8be0124d")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "#PWR020") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:R_US") 
+    (at 259.08 26.67 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "acefa345-f283-4941-8bbf-7b9da69bf85e") 
+    (property "Reference" "R13" 
+      (at 261.62 25.3999 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "510" 
+      (at 261.62 27.9399 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" 
+      (at 260.096 26.924 90) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 259.08 26.67 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Resistor, US symbol" 
+      (at 259.08 26.67 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "336ab809-b9e5-4f90-9b63-7484cc763507")) 
+    (pin "2" 
+      (uuid "13634807-fef9-4591-a30f-00f2c8a0fcd8")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "R13") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:R_US") 
+    (at 246.38 26.67 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "aee02964-4726-41e1-a544-467b091e17a2") 
+    (property "Reference" "R11" 
+      (at 248.92 25.3999 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "510" 
+      (at 248.92 27.9399 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" 
+      (at 247.396 26.924 90) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 246.38 26.67 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Resistor, US symbol" 
+      (at 246.38 26.67 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "eaa72775-a902-4a56-b948-95c994ede034")) 
+    (pin "2" 
+      (uuid "91a17524-9f69-4a6b-83bc-f1855ff74b43")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "R11") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:LED") 
+    (at 195.58 34.29 90) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "b17fa43c-2662-4f24-bfc1-da0e03be891e") 
+    (property "Reference" "D3" 
+      (at 199.39 34.6074 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Value" "LED" 
+      (at 199.39 37.1474 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Footprint" "LED_THT:LED_D5.0mm" 
+      (at 195.58 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 195.58 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Light emitting diode" 
+      (at 195.58 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Sim.Pins" "1=K 2=A" 
+      (at 195.58 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "374091fd-94c3-43a7-a853-96f72808c16c")) 
+    (pin "2" 
+      (uuid "65a0ad4a-cc69-42cf-bff7-413ad7d385b2")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "D3") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:PWR_FLAG") 
+    (at 120.65 73.66 180) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "b3bd3551-656b-4f2b-ade5-c77c1cb3bc99") 
+    (property "Reference" "#FLG02" 
+      (at 120.65 75.565 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "PWR_FLAG" 
+      (at 120.65 78.74 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "" 
+      (at 120.65 73.66 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 120.65 73.66 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Special symbol for telling ERC where power comes from" 
+      (at 120.65 73.66 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "22b18510-4757-4210-96cc-283cec41bfd9")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "#FLG02") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:LED") 
+    (at 207.01 34.29 90) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "b459ba05-9927-4e2f-8ee1-4667657f5ea4") 
+    (property "Reference" "D5" 
+      (at 210.82 34.6074 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Value" "LED" 
+      (at 210.82 37.1474 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Footprint" "LED_THT:LED_D5.0mm" 
+      (at 207.01 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 207.01 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Light emitting diode" 
+      (at 207.01 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Sim.Pins" "1=K 2=A" 
+      (at 207.01 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "02a9752c-7ea1-4d9c-a002-31b0618eb929")) 
+    (pin "2" 
+      (uuid "bfae672a-6f57-42ea-9578-1fa5644dac76")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "D5") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:LED") 
+    (at 233.68 34.29 90) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "b4f542c5-8662-4752-843b-ff874e3e63d9") 
+    (property "Reference" "D9" 
+      (at 237.49 34.6074 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Value" "LED" 
+      (at 237.49 37.1474 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Footprint" "LED_THT:LED_D5.0mm" 
+      (at 233.68 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 233.68 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Light emitting diode" 
+      (at 233.68 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Sim.Pins" "1=K 2=A" 
+      (at 233.68 34.29 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "ce4d9305-675f-4e01-9402-3cc8f1dbc7f5")) 
+    (pin "2" 
+      (uuid "af3a7490-4eb2-489b-a8bc-6e7d57f9ca57")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "D9") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 195.58 63.5 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "b9f403ba-664c-4015-8e54-89b5c6323cd9") 
+    (property "Reference" "#PWR014" 
+      (at 195.58 69.85 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "GND" 
+      (at 195.58 68.58 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "" 
+      (at 195.58 63.5 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 195.58 63.5 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground" 
+      (at 195.58 63.5 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "68adacfd-7507-47de-869c-350c9664859f")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "#PWR014") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 259.08 38.1 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "bd29ee8e-9df9-4571-9a9e-77bc2d897f01") 
+    (property "Reference" "#PWR023" 
+      (at 259.08 44.45 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "GND" 
+      (at 259.08 43.18 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "" 
+      (at 259.08 38.1 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 259.08 38.1 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground" 
+      (at 259.08 38.1 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "5bde72ee-96c0-4d2e-a664-d927f419748d")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "#PWR023") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:R_US") 
+    (at 207.01 26.67 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "bed9aaa7-da8b-411f-9c5b-12260c4ecf0b") 
+    (property "Reference" "R5" 
+      (at 209.55 25.3999 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "510" 
+      (at 209.55 27.9399 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" 
+      (at 208.026 26.924 90) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 207.01 26.67 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Resistor, US symbol" 
+      (at 207.01 26.67 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "4bbd4222-963b-40cc-948b-1974041880fb")) 
+    (pin "2" 
+      (uuid "a873ee32-3bab-4761-b5ae-dc6d40851c50")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "R5") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:LED") 
+    (at 233.68 59.69 90) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "bf03ce95-02f1-4357-9532-cd40f6bc12ea") 
+    (property "Reference" "D10" 
+      (at 237.49 60.0074 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Value" "LED" 
+      (at 237.49 62.5474 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Footprint" "LED_THT:LED_D5.0mm" 
+      (at 233.68 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 233.68 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Light emitting diode" 
+      (at 233.68 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Sim.Pins" "1=K 2=A" 
+      (at 233.68 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "3f5a600b-6561-4919-9d01-5e305312543f")) 
+    (pin "2" 
+      (uuid "2de631d2-1037-476f-a20c-c22576aa65b1")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "D10") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:R_US") 
+    (at 246.38 52.07 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "c39ca38a-8e08-44df-b977-61bdd827c4d5") 
+    (property "Reference" "R12" 
+      (at 248.92 50.7999 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "510" 
+      (at 248.92 53.3399 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" 
+      (at 247.396 52.324 90) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 246.38 52.07 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Resistor, US symbol" 
+      (at 246.38 52.07 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "766d4b4a-1c39-4247-8888-85e906abd195")) 
+    (pin "2" 
+      (uuid "bb3ee1c8-c2e0-4246-9782-89c102b1aa2b")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "R12") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 246.38 63.5 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "c718cad0-3e85-4440-af4d-775149d0391a") 
+    (property "Reference" "#PWR022" 
+      (at 246.38 69.85 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "GND" 
+      (at 246.38 68.58 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "" 
+      (at 246.38 63.5 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 246.38 63.5 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground" 
+      (at 246.38 63.5 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "462af687-421a-4618-9776-5d08a2b658d1")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "#PWR022") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:R_US") 
+    (at 195.58 26.67 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "c973e58e-5d6c-44cb-9d8a-6b1a8d566270") 
+    (property "Reference" "R3" 
+      (at 198.12 25.3999 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "510" 
+      (at 198.12 27.9399 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" 
+      (at 196.596 26.924 90) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 195.58 26.67 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Resistor, US symbol" 
+      (at 195.58 26.67 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "0c55029d-01cc-45c6-85bc-3795eb105ad1")) 
+    (pin "2" 
+      (uuid "4abcc96d-5039-4431-b018-95c1d76509b1")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "R3") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:R_US") 
+    (at 180.34 26.67 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "cd5aad02-9f2d-4901-ad2c-cc81cb61238c") 
+    (property "Reference" "R1" 
+      (at 182.88 25.3999 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "510" 
+      (at 182.88 27.9399 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" 
+      (at 181.356 26.924 90) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 180.34 26.67 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Resistor, US symbol" 
+      (at 180.34 26.67 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "483511eb-9e1c-4c52-b1d4-e5594871eaa8")) 
+    (pin "2" 
+      (uuid "f9782a1e-8f4b-40bf-ba1f-79b8358f6ea9")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "R1") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 29.21 29.21 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "da84f7df-9bc3-48e0-99e1-2a94cbac329d") 
+    (property "Reference" "#PWR01" 
+      (at 29.21 35.56 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "GND" 
+      (at 29.21 34.29 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "" 
+      (at 29.21 29.21 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 29.21 29.21 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground" 
+      (at 29.21 29.21 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "70da17b8-1d09-4bab-9331-f2f26875e1c9")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "#PWR01") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Connector:TestPoint") 
+    (at 27.94 26.67 90) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "e2a7b258-2805-41cf-ae9a-63858551183b") 
+    (property "Reference" "TP1" 
+      (at 24.638 21.59 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "VDD" 
+      (at 24.638 24.13 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm" 
+      (at 27.94 21.59 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 27.94 21.59 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "test point" 
+      (at 27.94 26.67 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "db75a6a3-3953-4287-a849-3d46a63695e7")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "TP1") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:R_US") 
+    (at 271.78 26.67 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "e7482a64-819f-4c8f-83a5-4d61722b3937") 
+    (property "Reference" "R15" 
+      (at 274.32 25.3999 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "510" 
+      (at 274.32 27.9399 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" 
+      (at 272.796 26.924 90) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 271.78 26.67 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Resistor, US symbol" 
+      (at 271.78 26.67 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "15d69a24-aada-4178-9ea8-109d00b223c2")) 
+    (pin "2" 
+      (uuid "de2cbba8-83ad-4cea-ac3e-e3edb862da12")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "R15") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "power:GND") 
+    (at 233.68 38.1 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "f14f580e-c313-48f3-84f3-b9425b9ee191") 
+    (property "Reference" "#PWR019" 
+      (at 233.68 44.45 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Value" "GND" 
+      (at 233.68 43.18 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Footprint" "" 
+      (at 233.68 38.1 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 233.68 38.1 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground" 
+      (at 233.68 38.1 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "6bf72a2a-642f-486c-83a6-75db2c95cc00")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "#PWR019") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:R_US") 
+    (at 233.68 52.07 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "f5efe3c2-ef63-4aa4-a47b-32084979d421") 
+    (property "Reference" "R10" 
+      (at 236.22 50.7999 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "510" 
+      (at 236.22 53.3399 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" 
+      (at 234.696 52.324 90) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 233.68 52.07 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Resistor, US symbol" 
+      (at 233.68 52.07 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "0408e1e0-a3c5-4477-a9e7-0ad4d200411b")) 
+    (pin "2" 
+      (uuid "3e7cb30a-67b9-45d9-b348-be668815b7af")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "R10") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Device:LED") 
+    (at 195.58 59.69 90) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "fae943e8-472c-4f65-afce-2a60b6c02ada") 
+    (property "Reference" "D4" 
+      (at 199.39 60.0074 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Value" "LED" 
+      (at 199.39 62.5474 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (property "Footprint" "LED_THT:LED_D5.0mm" 
+      (at 195.58 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 195.58 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Light emitting diode" 
+      (at 195.58 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Sim.Pins" "1=K 2=A" 
+      (at 195.58 59.69 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "1" 
+      (uuid "056bb325-fdd4-4c23-ab95-82bcadef06d8")) 
+    (pin "2" 
+      (uuid "a4bc29cc-c47b-4e0b-8241-6b82c813073e")) 
+    (instances 
+      (project "STM32 LED Heart" 
+        (path "/3095b181-dec6-4ba7-b324-328491ddf4e6" 
+          (reference "D4") 
+          (unit 1))))) 
+  (sheet_instances 
+    (path "/" 
+      (page "1"))) 
+  (embedded_fonts no))
